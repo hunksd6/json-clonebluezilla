@@ -1,0 +1,40 @@
+ocs-bttrack (0.2.2-drbl2) unstable; urgency=medium
+
+  * Improve the mechanism to assign the correct shebang. 
+
+ -- Steven Shiau <steven@clonezilla.org>  Wed, 29 Jan 2020 17:54:26 +0800
+
+ocs-bttrack (0.2.2-drbl1) unstable; urgency=medium
+
+  * Use python2 instead of python in shebang otherwise it might goes wrong
+    with python3.
+
+ -- Steven Shiau <steven@clonezilla.org>  Wed, 29 Jan 2020 16:46:40 +0800
+
+ocs-bttrack (0.2.1-drbl2) unstable; urgency=medium
+
+  * Recombiled on Debian Buster. 
+  * Explicitly make requirement as python or python2 because Ubuntu Focal does
+    not provide python anymore, instead it's python2.
+
+ -- Steven Shiau <steven@clonezilla.org>  Wed, 29 Jan 2020 11:47:37 +0800
+
+ocs-bttrack (0.2.1-drbl1) unstable; urgency=medium
+
+  * Somehow the non-present event also +1 for self.state["completed"].items(), 
+    hence use self.completedno in track.py.
+
+ -- Steven Shiau <steven@nchc.org.tw>  Sun, 25 Dec 2016 14:58:53 +0800
+
+ocs-bttrack (0.2-drbl1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Drop installing btmakemetafile.py and btcompletedir.py on system.
+
+ -- Steven Shiau <steven@nchc.org.tw>  Sat, 24 Dec 2016 22:04:23 +0800
+
+ocs-bttrack (0.1-drbl1) unstable; urgency=medium
+
+  * Initial released, modified from BitTornado.
+
+ -- Steven Shiau <steven@clonezilla.org>  Thu, 22 Dec 2016 21:49:30 +0800
